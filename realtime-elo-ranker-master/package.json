@@ -17,5 +17,8 @@
     "motion": "^11.17.0",
     "next": "15.1.4",
     "typescript": "^5"
+  },
+  "dependencies": {
+    "node": "^23.7.0"
   }
 }
