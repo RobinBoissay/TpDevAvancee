@@ -6,7 +6,7 @@
 
 Le client repose sur une source CSS exposée par la librairie `libs/ui` (@realtime-elo-ranker/libs/ui). Il est nécessaire de construire la lib pour rendre la source accessible.
 
-Pour ce faire :
+Faites les commandes suivantes à la racine de l'application
 
 ```bash
 nvm install 22
