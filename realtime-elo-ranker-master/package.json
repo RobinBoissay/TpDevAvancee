@@ -7,18 +7,20 @@
   "license": "UNLICENSED",
   "scripts": {
     "apps:client:dev": "pnpm run --filter ./apps/realtime-elo-ranker-client dev",
+    "apps:server:dev": "pnpm run --filter ./apps/realtime-elo-ranker-server dev",
     "apps:api-mock:start": "pnpm run --filter ./apps/realtime-elo-ranker-api-mock start",
     "libs:ui:build": "pnpm run --filter ./libs/ui build",
-    "libs:ui:test": "pnpm run --filter ./libs/ui test",
     "docs:swagger:start": "pnpm run --filter ./docs/swagger start"
   },
   "devDependencies": {
+    "@nestjs/cli": "^11.0.1",
     "generate-react-cli": "^8.4.9",
     "motion": "^11.17.0",
     "next": "15.1.4",
     "typescript": "^5"
   },
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
   "dependencies": {
-    "node": "^23.7.0"
+    "@nestjs/event-emitter": "^3.0.0"
   }
 }
